@@ -1,0 +1,3 @@
+Inventory ReportLaptop | Rs.55000 | Qty: 10
+Wireless Mouse | Rs.1200 | Qty: 50
+Mechanical Keyboard | Rs.4500 | Qty: 25
