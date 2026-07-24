@@ -22,7 +22,7 @@ async def async_work():
     await asyncio.sleep(2)
     print("Task 1 done")
 
-    print("Taskk 2: Starting")
+    print("Task 2: Starting")
     await asyncio.sleep(2)
     print("Task 2 done")
 
