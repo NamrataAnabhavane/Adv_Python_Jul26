@@ -1,7 +1,7 @@
 from multiprocessing import Process
 
 def calculate_summary(products):
-    print("\Inventory Summary")
+    print("\nInventory Summary")
     print("")
     total_items = sum(product.quantity for product in products)
 
@@ -10,8 +10,8 @@ def calculate_summary(products):
     print(f"Total Products: {total_items}")
     print(f"Inventory value: Rs.{inventory_value:.2f}")
 
-    def generate_summary(products):
-        process = Process(target=calculate_summary,args=(products,))
+def generate_summary(products):
+    process = Process(target=calculate_summary,args=(products,))
 
-        process.start()
-        process.join()
+    process.start()
+    process.join()
